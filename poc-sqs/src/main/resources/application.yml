@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: poc-sqs
+  cloud:
+    aws:
+      endpoint: http://localhost:4566
+      credentials:
+        access-key: localstackKeyId
+        secret-key: Tulipa89!
+      region:
+        static: sa-east-1
+  sqs:
+    queue-name: myFirstQueue

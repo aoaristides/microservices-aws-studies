@@ -1,4 +1,4 @@
 package br.com.makersweb.pocsqs.consumer;
 
-public record MyMessage() {
+public record MyMessage(String content) {
 }
